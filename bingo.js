@@ -16,7 +16,7 @@ const sins = [
     "Luigia...",
     "Doesn't belong here, but...",
     "Working on slides",
-    "Joker (recommendations welcome)",
+    "Arrives late or leaves early",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)",
