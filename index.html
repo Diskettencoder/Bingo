@@ -1,0 +1,177 @@
+<head>
+    <link rel="stylesheet" href="bingo.css">
+
+    <meta charset="utf-8">
+
+    <title>The Meeting Bullshit Bingo</title>
+
+    <meta name="description" content="Tired of off-topic discussions? Listen carefully and play Bingo!">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="og:title" content="The Meeting Bullshit Bingo">
+    <meta name="twitter:title" content="The Meeting Bullshit Bingo">
+    <meta name="og:image" content="https://diskettencoder.github.io/bingo/resources/thumbnail.jpg">
+    <meta name="twitter:image" content="https://diskettencoder.github.io/bingo/resources/thumbnail.jpg">
+    <meta name="og:image:width" content="1398">
+    <meta name="og:image:height" content="720">
+    <meta name="og:url" content="https://diskettencoder.github.io/bingo">
+    <meta name="og:description" content="Tired of off-topic discussions? Listen carefully and play Bingo!">
+    <meta name="og:type" content="website">
+</head>
+
+<body>
+    <!--Title-->
+    <div id="title" class="classic">
+    <h1><strong>
+        <span id="title-c">C</span><span id="title-r">R</span><span id="title-i">I</span><span id="title-n">N</span><span id="title-g">G</span><span id="title-o">O</span></strong></h1>
+    <h2><strong>M</strong>ee<strong>t</strong>ing Bullsh<strong>i</strong>t Bi<strong>ngo</strong></h2>
+    </div>
+
+    <!--Playing field-->
+    <div class="field classic" id="field">
+        <div class="entry" id="e01">
+            1
+        </div>
+        <div class="entry" id="e02">
+            2
+        </div>
+        <div class="entry" id="e03">
+            3
+        </div>
+        <div class="entry" id="e04">
+            4
+        </div>
+        <div class="entry" id="e05">
+            5
+        </div>
+        <div class="entry" id="e06">
+            6
+        </div>
+        <div class="entry" id="e07">
+            7
+        </div>
+        <div class="entry" id="e08">
+            8
+        </div>
+        <div class="entry" id="e09">
+            9
+        </div>
+        <div class="entry" id="e10">
+            10
+        </div>
+        <div class="entry" id="e11">
+            11
+        </div>
+        <div class="entry" id="e12">
+            12
+        </div>
+        <div class="entry" id="e13">
+            13
+        </div>
+        <div class="entry" id="e14">
+            14
+        </div>
+        <div class="entry" id="e15">
+            15
+        </div>
+        <div class="entry" id="e16">
+            16
+        </div>
+        <div class="entry" id="e17">
+            17
+        </div>
+        <div class="entry" id="e18">
+            18
+        </div>
+        <div class="entry" id="e19">
+            19
+        </div>
+        <div class="entry" id="e20">
+            20
+        </div>
+        <div class="entry" id="e21">
+            21
+        </div>
+        <div class="entry" id="e22">
+            22
+        </div>
+        <div class="entry" id="e23">
+            23
+        </div>
+        <div class="entry" id="e24">
+            24
+        </div>
+        <div class="entry" id="e25">
+            25
+        </div>
+    </div>
+
+    <!--Win-->
+    <div id="win" class="modal classic">
+        <div id="bingo">
+            <span class="close">&times;</span>
+            <h1>BINGO!!!</h1>
+            <div id="win-controls">
+                <h3 id="play-again">Play again</h3>
+                <h3 id="continue">Continue playing</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--Controls-->
+    <div id="controls">
+        <div id="reset" class="options-btn">
+            <p>Reset</p>
+        </div>
+        <div id="options-spacer"></div>
+        <div id="options" class="options-btn">
+            <p>Options</p>
+        </div>
+    </div>
+    <div id="about-btn">
+        <h3>?</h3>
+    </div>
+
+    <!--Options dialogue-->
+    <div id="options-modal" class="modal">
+        <div id="options-panel">
+            <span class="close">&times;</span>
+            <h1>OPTIONS</h1>
+            <h3>Appearance</h3>
+            <form id="options-radio">
+                <input type="radio" id="app-nice" name="appearance" value="0" disabled>
+                <label for="app-nice" id="app-nice-label">nice [not available]</label><br>
+                <input type="radio" id="app-classic" name="appearance" value="1">
+                <label for="app-classic">classic</label><br>
+                <input type="radio" id="app-ugly" name="appearance" value="2">
+                <label for="app-ugly">ugly</label>
+            </form>
+            <h3>Joker field</h3>
+            <form id="joker-radio">
+                <input type="radio" id="no-joker" name="joker" value="0">
+                <label for="no-joker" id="no-joker-label">classic [no joker field]</label><br>
+                <input type="radio" id="joker" name="joker" value="1">
+                <label for="joker" id="joker-label">center joker field</label><br>
+                <input type="radio" id="rdm-joker" name="joker" value="2">
+                <label for="rdm-joker" id="rmd-joker-label">random joker field</label><br>
+            </form>
+        </div>
+    </div>
+
+    <!--About modal-->
+    <div id="about-modal" class="modal">
+        <div id="about-panel">
+            <span class="close">&times;</span>
+            <h1>ABOUT</h1>
+            <p>The Meeting Bullshit Bingo</p>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="bingo.js" type="text/javascript"></script>
+</body>
+
+<footer>
+    
+</footer>
