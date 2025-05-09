@@ -6,7 +6,7 @@ const sins = [
     "Buzzword: Workflows",
     "Buzzword: Straightforward",
     "Buzzword: Machine Learning",
-    "Hartwig sleeps",
+    "He sleeps",
     "“We” are working on the PhD projects",
     "Still working on the same report",
     "Randomly enters a conversation to say something unspecific about coding or AI",
