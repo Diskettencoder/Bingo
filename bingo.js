@@ -20,7 +20,7 @@ const sins = [
     "Mentions Geotherm more then a month beforehand",
     "Forgot he send one of us on a conference",
     "Buzzword: Leading Edge",
-    "Greets you with "WE NEED TO TALK"",
+    "Greets you with ”WE NEED TO TALK”",
     "Buzzword: Not a Company",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)",
