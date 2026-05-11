@@ -24,7 +24,7 @@ const sins = [
     "Buzzword: Not a Company",
     "Repeats the word ”Method” without elaborating",
     "”We work with data.”",
-    "Joker (recommendations welcome)",
+    "Argues with Mohammad about IT, only due to not paying proper attention",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)"
 ];
