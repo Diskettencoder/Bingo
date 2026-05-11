@@ -23,7 +23,7 @@ const sins = [
     "Greets you with ”WE NEED TO TALK”",
     "Buzzword: Not a Company",
     "Repeats the word ”Method” without elaborating",
-    "”We work with Data.”",
+    "”We work with data.”",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)",
     "Joker (recommendations welcome)"
